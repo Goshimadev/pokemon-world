@@ -82,7 +82,7 @@ export default function Nav() {
           </Link>
         </li>
         <li className={clsx('order-1 flex-1 md:order-2 md:block', !menuExpanded && 'hidden')}>
-          <Link href="https://poocoin.app" className="nav-link">
+          <Link href="https://poocoin.app/tokens/0x92Fd7D28540EbBAABd53590350A760B831204624" className="nav-link">
             <HiOutlineLightBulb className="text-2xl" />
             Chart
           </Link>

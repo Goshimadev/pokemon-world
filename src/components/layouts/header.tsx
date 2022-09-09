@@ -33,7 +33,7 @@ export default function Header() {
 
         <div className="flex items-center gap-1 self-center">
           <a
-            href="https://poocoin.app/"
+            href="https://poocoin.app/tokens/0x92Fd7D28540EbBAABd53590350A760B831204624"
             target="_blank"
             rel="noreferrer"
             title="Pokemon Awesome on poo"

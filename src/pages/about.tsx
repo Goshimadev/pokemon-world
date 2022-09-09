@@ -12,7 +12,7 @@ export default function AboutPage() {
 
       <div className="max-w-2xl space-y-5 pb-6">
         <p>
-          Our official CA for this is _______ and will be added after launch. P2E integration will happen shortly and many updates will come on our dapp! We will be adding a swap, staking, farming, and many other games to this also! Stay tuned for our team page to come in the near future as well. Pokémon Awesome is a simple yet rich-featured Pokémon website that is built in order to
+          Our official CA for this is 0x92Fd7D28540EbBAABd53590350A760B831204624 and will be added after launch. P2E integration will happen shortly and many updates will come on our dapp! We will be adding a swap, staking, farming, and many other games to this also! Stay tuned for our team page to come in the near future as well. Pokémon Awesome is a simple yet rich-featured Pokémon website that is built in order to
           allow Pokémon lovers to easily explore Pokémon and do many more things. Anyone can use
           this site to search for Pokémon by name and filter them by generation and type.
         </p>
