@@ -34,21 +34,11 @@ export default function Header() {
         <div className="flex items-center gap-1 self-center">
           <a
             href="https://t.me/pokemonawesome"
-            target="_blank"
-            rel="noreferrer"
-            title="Pokemon Awesome on Telegram"
-            className="p-2 text-2xl text-[#ea532a]"
-          >
-            <span className="sr-only">Pokemon Awesome on Telegram</span>
-            <FaProductHunt />
-          </a>
-          <a
-            href="https://t.me/pokemonawesome"
             title="Pokemon Awesome on GitHub"
             className="p-2 text-2xl dark:text-white"
           >
             <span className="sr-only">Pokemon Awesome on Telegram</span>
-            <telegram.svg />
+            <BsGithub />
           </a>
           <label
             htmlFor="darkmode-toggle"
