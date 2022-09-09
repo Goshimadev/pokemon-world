@@ -39,10 +39,10 @@ export default function AboutPage() {
       </div>
 
       <a
-        href="https://www.producthunt.com/posts/pokemon-awesome?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-pokemon&#0045;awesome"
+        href="https://t.me/pokemonawesome"
         target="_blank"
         rel="noreferrer"
-        title="Pokemon Awesome on Product Hunt"
+        title="Pokemon Awesome on Telegram"
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
