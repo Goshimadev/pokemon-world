@@ -46,7 +46,7 @@ export default function AboutPage() {
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/public/pokemon-awesome.png"
+          src="telegram.png"
           alt=""
           className="inline-block"
           width="250"
