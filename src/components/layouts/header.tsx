@@ -43,14 +43,12 @@ export default function Header() {
             <FaPoo />
           </a>
           <a
-            href="https://poocoin.app/"
-            target="_blank"
-            rel="noreferrer"
-            title="Pokemon Awesome on poo"
-            className="p-2 text-2xl text-[#4a2f04]"
+            href="https://t.me/pokemonawesome"
+            title="Pokemon Awesome on Telegram"
+            className="p-2 text-2xl dark:text-white"
           >
             <span className="sr-only">Pokemon Awesome on Telegram</span>
-            <FaPoo />
+            <BsTelegram />
           </a>
           <a
             href="https://t.me/pokemonawesome"
