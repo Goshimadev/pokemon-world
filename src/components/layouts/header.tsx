@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { BsTelegram } from 'react-icons/bs';
 import { FaPoo } from 'react-icons/fa';
-import { FaTwitter } from 'react-icons';
 import { HiMoon, HiSun } from 'react-icons/hi';
 import { useIsomorphicLayoutEffect as useLayoutEffect } from 'react-power-ups';
 
@@ -50,14 +49,6 @@ export default function Header() {
           >
             <span className="sr-only">Pokemon Awesome on Telegram</span>
             <BsTelegram />
-          </a>
-          <a
-            href="https://twitter.com/pokemonawesome"
-            title="Pokemon Awesome on Telegram"
-            className="p-2 text-2xl dark:text-white"
-          >
-            <span className="sr-only">Pokemon Awesome on Telegram</span>
-            <FaTwitter />
           </a>
           <label
             htmlFor="darkmode-toggle"
