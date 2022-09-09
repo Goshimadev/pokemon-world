@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { BsTelegram } from 'react-icons/bs';
 import { FaPoo } from 'react-icons/fa';
-import { FaTwitter } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons';
 import { HiMoon, HiSun } from 'react-icons/hi';
 import { useIsomorphicLayoutEffect as useLayoutEffect } from 'react-power-ups';
 
