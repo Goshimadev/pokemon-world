@@ -12,6 +12,7 @@ import {
   HiOutlineSwitchHorizontal,
   HiOutlineViewGrid,
   HiOutlineX,
+  FaPoo,
 } from 'react-icons/hi';
 import { useToggle } from 'react-power-ups';
 
@@ -83,7 +84,7 @@ export default function Nav() {
         </li>
         <li className={clsx('order-1 flex-1 md:order-2 md:block', !menuExpanded && 'hidden')}>
           <Link href="https://poocoin.app" className="nav-link">
-            <HiOutlineLightBulb className="text-2xl" />
+            <FaPoo className="text-2xl" />
             Chart
           </Link>
         </li>
