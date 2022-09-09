@@ -2,7 +2,7 @@ import Image from 'next/future/image';
 import Head from 'next/head';
 import Link from 'next/link';
 import { useState } from 'react';
-import { BsGithub } from 'react-icons/bs';
+import  BsGithub from 'telegram.svg';
 import { FaProductHunt } from 'react-icons/fa';
 import { HiMoon, HiSun } from 'react-icons/hi';
 import { useIsomorphicLayoutEffect as useLayoutEffect } from 'react-power-ups';
