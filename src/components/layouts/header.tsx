@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useState } from 'react';
 import { BsTelegram } from 'react-icons/bs';
+import { FaPoo } from 'react-icons/fa';
 import { HiMoon, HiSun } from 'react-icons/hi';
 import { useIsomorphicLayoutEffect as useLayoutEffect } from 'react-power-ups';
 
@@ -33,7 +34,17 @@ export default function Header() {
         <div className="flex items-center gap-1 self-center">
           <a
             href="https://t.me/pokemonawesome"
-            title="Pokemon Awesome on GitHub"
+            target="_blank"
+            rel="noreferrer"
+            title="Pokemon Awesome on poo"
+            className="p-2 text-2xl text-[#ea532a]"
+          >
+            <span className="sr-only">Pokemon Awesome on Telegram</span>
+            <FaPoo />
+          </a>
+          <a
+            href="https://t.me/pokemonawesome"
+            title="Pokemon Awesome on Telegram"
             className="p-2 text-2xl dark:text-white"
           >
             <span className="sr-only">Pokemon Awesome on Telegram</span>
