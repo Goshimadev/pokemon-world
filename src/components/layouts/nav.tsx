@@ -12,7 +12,6 @@ import {
   HiOutlineSwitchHorizontal,
   HiOutlineViewGrid,
   HiOutlineX,
-  HiOutlineX,
 } from 'react-icons/hi';
 import { useToggle } from 'react-power-ups';
 
