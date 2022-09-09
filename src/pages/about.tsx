@@ -46,8 +46,8 @@ export default function AboutPage() {
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=357768&theme=light"
-          alt="Pokemon&#0032;Awesome - The&#0032;coolest&#0032;Pokemon&#0032;website&#0032;ever&#0033; | Product Hunt"
+          src="/public/pokemon-awesome.png"
+          alt=""
           className="inline-block"
           width="250"
           height="54"
