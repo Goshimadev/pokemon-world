@@ -76,6 +76,18 @@ export default function Nav() {
           </Link>
         </li>
         <li className={clsx('order-1 flex-1 md:order-2 md:block', !menuExpanded && 'hidden')}>
+          <Link href="https://t.me/pokemonawesome" className="nav-link">
+            <HiOutlineLightBulb className="text-2xl" />
+            Telegram
+          </Link>
+        </li>
+        <li className={clsx('order-1 flex-1 md:order-2 md:block', !menuExpanded && 'hidden')}>
+          <Link href="https://poocoin.app" className="nav-link">
+            <HiOutlineLightBulb className="text-2xl" />
+            Chart
+          </Link>
+        </li>
+        <li className={clsx('order-1 flex-1 md:order-2 md:block', !menuExpanded && 'hidden')}>
           <Link href="/about" className="nav-link">
             <HiOutlineInformationCircle className="text-2xl" />
             About
