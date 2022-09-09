@@ -48,7 +48,7 @@ export default function Header() {
             className="p-2 text-2xl dark:text-white"
           >
             <span className="sr-only">Pokemon Awesome on Telegram</span>
-            <Telegram.svg />
+            <telegram.svg />
           </a>
           <label
             htmlFor="darkmode-toggle"
