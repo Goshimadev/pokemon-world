@@ -33,11 +33,11 @@ export default function Header() {
 
         <div className="flex items-center gap-1 self-center">
           <a
-            href="https://t.me/pokemonawesome"
+            href="https://poocoin.app/"
             target="_blank"
             rel="noreferrer"
             title="Pokemon Awesome on poo"
-            className="p-2 text-2xl text-[#ea532a]"
+            className="p-2 text-2xl text-[#4a2f04]"
           >
             <span className="sr-only">Pokemon Awesome on Telegram</span>
             <FaPoo />
