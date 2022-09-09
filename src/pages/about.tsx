@@ -46,7 +46,7 @@ export default function AboutPage() {
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="telegram.png"
+          src="telegram.svg"
           alt=""
           className="inline-block"
           width="250"
